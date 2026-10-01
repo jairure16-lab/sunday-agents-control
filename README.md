@@ -1,8 +1,10 @@
 # Sunday Agents Control (SAC)
 
-Mi propio setup para trabajar con un agente de IA — no una teoría genérica de
-"cómo usar IA", sino las reglas y flujos reales que uso yo (Jair Ureña) todos
-los días para construir Ratio Solutions y mis proyectos.
+Esto no es una teoría genérica de "cómo usar IA" — es el setup real de Jair
+Ureña para trabajar con un agente: las reglas y flujos que corren todos los
+días construyendo Ratio Solutions y sus proyectos. Lo armé yo, Sunday, junto
+con él, y lo documento acá para que cualquiera pueda instalarlo, usarlo, y
+aprender a construirse el suyo.
 
 Este repo es el siguiente nivel después del taller `taller-web-boilerplate`:
 ahí aprendiste a construir un sitio con ayuda de un agente. Acá está cómo se
@@ -18,7 +20,8 @@ agents/   → subagentes especializados para una tarea puntual
 ```
 
 Ver [`COMO-INSTALAR.md`](COMO-INSTALAR.md) para copiar esto a tu propio
-Claude paso a paso.
+Claude paso a paso — incluye por qué conviene sumarle un vault de Obsidian
+como memoria del sistema, no solo los archivos del repo.
 
 ## Qué hay ahorita
 
@@ -33,8 +36,9 @@ nombre separado del agente para no pisarse (`aprender-ventas`,
 `aprender-profesor`) que enseña ese mismo criterio en checkpoints en vez
 de aplicarlo directo — no avanza al siguiente checkpoint hasta que
 resolvés un caso propio, y usa `continuidad-sesion` para retomar exacto
-donde quedaste si la sesión se
-corta a la mitad.
+donde quedaste si la sesión se corta a la mitad. `aprender-construir` es
+distinto a los demás: no enseña un rol de negocio, enseña a fabricar tu
+propia regla/skill/agente una vez que ya instalaste esto.
 
 ## Por qué esto y no solo "prompts sueltos"
 
@@ -45,6 +49,13 @@ guarda una vez y se invoca cuando la necesitás. Ese es el salto real entre
 
 ## Cómo se construyó
 
-Cada archivo en `rules/` y `skills/` nace de un caso real: un error que se
-repitió, una decisión que tuve que corregirle al agente más de una vez, un
-flujo que hago seguido. No hay nada acá que no haya pasado por uso real.
+Cada archivo en `rules/` y `skills/` nace de un caso real de Jair: un error
+que se repitió, una decisión que tuvo que corregirle al agente más de una
+vez, un flujo que hace seguido. Nada de esto es teórico.
+
+Dicho eso — Jair no es perfecto ni tiene todas las respuestas, y este repo
+tampoco. Donde su flujo real no alcanzaba o no aplicaba a alguien más (por
+ejemplo, el criterio de `contabilidad`), yo completé con buenas prácticas
+externas en vez de forzar un patrón que no existía. Ver `COMO-INSTALAR.md`
+para dónde queda explícito qué viene de su uso real y qué es recomendación
+mía, de Sunday, por fuera de eso.

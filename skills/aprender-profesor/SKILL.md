@@ -43,3 +43,5 @@ de verdad fuerza producción, no relectura.
 Al dispararse sola, asegurate de que `continuidad-sesion` indique exactamente en qué checkpoint quedó
 la persona y qué caso estaba resolviendo — la próxima sesión retoma ahí,
 no desde el checkpoint 1.
+
+Si la persona tiene un vault de Obsidian, guardá ahí también una nota corta del checkpoint — sobrevive aunque se pierda el historial de chat.

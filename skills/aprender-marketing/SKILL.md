@@ -46,3 +46,6 @@ real hasta que el chequeo se vuelve automático.
 Al dispararse sola, asegurate de que `continuidad-sesion` indique exactamente en qué checkpoint quedó
 la persona, qué caso estaba resolviendo, y qué le faltó para pasarlo — la
 próxima sesión retoma ahí, no desde el checkpoint 1.
+
+Si la persona tiene un vault de Obsidian, guardá ahí también una nota
+corta del checkpoint — sobrevive aunque se pierda el historial de chat.
