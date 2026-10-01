@@ -27,14 +27,20 @@ como memoria del sistema, no solo los archivos del repo.
 
 **Agentes** (`agents/`) — aplican criterio real sobre un caso puntual:
 `mentor` (entrevista antes de construir), `ventas`, `marketing`,
-`contabilidad`, `admin`, `profesor`.
+`contabilidad`, `admin`, `profesor`, `crecimiento` (pauta paga,
+experimentos, pricing, onboarding — decide si escalar, pausar o seguir
+probando algo que ya está corriendo), `ideas` (evalúa si una idea suelta
+tiene tensión real o se descarta), `arquitecto` (auditoría técnica
+real de un proyecto — qué falta, qué bloquea, qué tan grave es cada
+cosa, de propósito general, no atado a un rol de negocio).
 
 **Skills** (`skills/`) — `codex-handoff` y `continuidad-sesion` son de
-flujo general. Por cada rol de negocio arriba hay una skill hermana con
-nombre separado del agente para no pisarse (`aprender-ventas`,
+flujo general. Por cada rol arriba hay una skill hermana con nombre
+separado del agente para no pisarse (`aprender-ventas`,
 `aprender-marketing`, `aprender-contabilidad`, `aprender-admin`,
-`aprender-profesor`) que enseña ese mismo criterio en checkpoints en vez
-de aplicarlo directo — no avanza al siguiente checkpoint hasta que
+`aprender-profesor`, `aprender-crecimiento`, `aprender-ideas`,
+`aprender-arquitecto`) que enseña ese mismo criterio en checkpoints en
+vez de aplicarlo directo — no avanza al siguiente checkpoint hasta que
 resolvés un caso propio, y usa `continuidad-sesion` para retomar exacto
 donde quedaste si la sesión se corta a la mitad. `aprender-construir` es
 distinto a los demás: no enseña un rol de negocio, enseña a fabricar tu
@@ -55,7 +61,13 @@ vez, un flujo que hace seguido. Nada de esto es teórico.
 
 Dicho eso — Jair no es perfecto ni tiene todas las respuestas, y este repo
 tampoco. Donde su flujo real no alcanzaba o no aplicaba a alguien más (por
-ejemplo, el criterio de `contabilidad`), yo completé con buenas prácticas
-externas en vez de forzar un patrón que no existía. Ver `COMO-INSTALAR.md`
-para dónde queda explícito qué viene de su uso real y qué es recomendación
-mía, de Sunday, por fuera de eso.
+ejemplo, el criterio de `contabilidad`, o `crecimiento` — que sale de
+consolidar reglas de crecimiento ya probadas en la industria, no de un
+flujo propio documentado de Jair), yo completé con buenas prácticas
+externas en vez de forzar un patrón que no existía. `ideas` y
+`arquitecto` sí salen de patrones propios de Jair — eran personajes que
+ya usaba a diario para evaluar ideas sueltas y auditar proyectos, y se
+les extrajo el criterio sacando la infraestructura personal (rutas de su
+vault, nombres de sus proyectos). Ver `COMO-INSTALAR.md` para dónde queda
+explícito qué viene de su uso real y qué es recomendación mía, de Sunday,
+por fuera de eso.

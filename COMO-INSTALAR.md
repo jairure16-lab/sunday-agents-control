@@ -31,9 +31,10 @@ armar las tuyas.
    `~/.claude/`, creala).
 2. Copiá cada carpeta dentro de `skills/` a `~/.claude/skills/`.
 3. Copiá cada archivo dentro de `agents/` a `~/.claude/agents/` (mentor
-   para entrevistar antes de construir, y un par por rol de negocio —
-   ventas, marketing, contabilidad, admin, profesor — para aplicar
-   criterio real en cada área).
+   para entrevistar antes de construir; ventas, marketing, contabilidad,
+   admin, profesor, crecimiento por rol de negocio; e ideas y arquitecto
+   de propósito general — evaluar ideas sueltas y auditar proyectos
+   técnicos, no atados a un rol de negocio puntual).
 4. Abrí (o creá) `~/.claude/CLAUDE.md` y agregá estas líneas al final:
 
    ```
@@ -95,16 +96,19 @@ profesor) hay dos piezas separadas, a propósito:
 
 ## Qué es uso real de Jair y qué es recomendación externa (mía, Sunday)
 
-Para ser honestos con lo que hay acá: `ventas`, `marketing` y `admin`
-salen de patrones reales de cómo Jair decide — los extraje de su propio
-material y se los confirmé antes de escribirlos. `profesor` sale de
-invertir cómo a Jair ya le enseñan en un sistema de seguimiento académico
-real que usa. `contabilidad`
-es distinto: Jair no tenía un patrón propio documentado y separable de
-sus finanzas privadas, así que ese criterio lo armé yo con buenas
-prácticas financieras generales — no asumas que es "cómo decide Jair" en
-particular, es una base razonable que podés y deberías ajustar a tu
-propio criterio.
+Para ser honestos con lo que hay acá: `ventas`, `marketing`, `admin`,
+`ideas` y `arquitecto` salen de patrones reales de cómo Jair decide —
+los extraje de su propio material (en el caso de `ideas` y `arquitecto`,
+de personajes/comandos que ya usaba a diario) y se los confirmé antes de
+escribirlos. `profesor` sale de invertir cómo a Jair ya le enseñan en un
+sistema de seguimiento académico real que usa. `contabilidad` y
+`crecimiento` son distintos: Jair no tenía un patrón propio documentado
+y separable de sus finanzas privadas (o, para `crecimiento`, de un
+conjunto de ~60 skills de pauta/marketing genéricas que tenía instaladas
+pero no un criterio propio extraído de ellas) — así que esos criterios
+los armé yo con buenas prácticas generales de la industria. No asumas
+que son "cómo decide Jair" en particular, son una base razonable que
+podés y deberías ajustar a tu propio criterio.
 
 Recomendación de Sunday que tampoco sale del flujo de Jair: considerá un
 vault de Obsidian como memoria persistente de todo esto (ver más abajo).
