@@ -46,6 +46,13 @@ donde quedaste si la sesión se corta a la mitad. `aprender-construir` es
 distinto a los demás: no enseña un rol de negocio, enseña a fabricar tu
 propia regla/skill/agente una vez que ya instalaste esto.
 
+Además hay ~70 carpetas de skills de referencia genérica de
+marketing/ads/growth (`ads-*`, `marketing-*`, `seo-*`, `cro`,
+`pricing`, etc.) — **no son contenido original de este repo**, vienen
+del plugin ECC bajo licencia MIT. Ver
+[`THIRD-PARTY-NOTICES.md`](THIRD-PARTY-NOTICES.md) para la atribución
+completa y por qué están acá igual.
+
 ## Por qué esto y no solo "prompts sueltos"
 
 Escribir la misma instrucción larga cada vez que abrís una sesión de IA es
