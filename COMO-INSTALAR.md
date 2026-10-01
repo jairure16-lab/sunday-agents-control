@@ -98,7 +98,8 @@ profesor) hay dos piezas separadas, a propósito:
 Para ser honestos con lo que hay acá: `ventas`, `marketing` y `admin`
 salen de patrones reales de cómo Jair decide — los extraje de su propio
 material y se los confirmé antes de escribirlos. `profesor` sale de
-invertir cómo un sistema real (ADENI) ya le enseña a él. `contabilidad`
+invertir cómo a Jair ya le enseñan en un sistema de seguimiento académico
+real que usa. `contabilidad`
 es distinto: Jair no tenía un patrón propio documentado y separable de
 sus finanzas privadas, así que ese criterio lo armé yo con buenas
 prácticas financieras generales — no asumas que es "cómo decide Jair" en
