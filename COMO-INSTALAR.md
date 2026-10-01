@@ -30,7 +30,10 @@ armar las tuyas.
 1. Copiá la carpeta `rules/` completa a `~/.claude/rules/` (si no existe
    `~/.claude/`, creala).
 2. Copiá cada carpeta dentro de `skills/` a `~/.claude/skills/`.
-3. Copiá `agents/mentor.md` a `~/.claude/agents/`.
+3. Copiá cada archivo dentro de `agents/` a `~/.claude/agents/` (mentor
+   para entrevistar antes de construir, y un par por rol de negocio —
+   ventas, marketing, contabilidad, admin, profesor — para aplicar
+   criterio real en cada área).
 4. Abrí (o creá) `~/.claude/CLAUDE.md` y agregá estas líneas al final:
 
    ```
@@ -49,11 +52,25 @@ Mismo proceso, pero dentro de la carpeta del proyecto en vez de `~/.claude/`:
 `<tu-proyecto>/.claude/rules/`, `<tu-proyecto>/.claude/skills/`, y un
 `CLAUDE.md` en la raíz del proyecto.
 
+## El patrón agente + skill por rol
+
+Para cada rol de negocio (ventas, marketing, contabilidad, admin,
+profesor) hay dos piezas separadas, a propósito:
+
+- **`agents/<rol>.md`** aplica el criterio directo — lo usás cuando ya
+  sabés el criterio y solo querés que se ejecute sobre un caso puntual.
+- **`skills/<rol>/SKILL.md`** enseña ese mismo criterio en checkpoints —
+  no avanza al siguiente hasta que demostrás que entendiste el anterior
+  con un caso propio. Si una sesión se corta a la mitad de un checkpoint,
+  se apoya en la skill `continuidad-sesion` para retomar exacto donde
+  quedaste, no desde el principio.
+
 ## Qué hacer después
 
-Las tres reglas y las dos skills que vienen acá salieron de casos reales
-míos (bugs repetidos, trabajo que quedó a medias entre sesiones). Las tuyas
-van a salir de lo mismo: la primera vez que algo te moleste de cómo trabaja
-el agente, o que te encuentres explicando lo mismo dos veces, esa es la
-señal de que necesitás una regla o una skill nueva — no una excepción que
+Las reglas y skills que vienen acá salieron de casos reales míos (bugs
+repetidos, trabajo que quedó a medias entre sesiones, criterio de negocio
+que tuve que explicar más de una vez). Las tuyas van a salir de lo mismo:
+la primera vez que algo te moleste de cómo trabaja el agente, o que te
+encuentres explicando lo mismo dos veces, esa es la señal de que
+necesitás una regla, una skill, o un agente nuevo — no una excepción que
 recordás de memoria.

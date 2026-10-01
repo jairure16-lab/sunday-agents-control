@@ -20,6 +20,22 @@ agents/   → subagentes especializados para una tarea puntual
 Ver [`COMO-INSTALAR.md`](COMO-INSTALAR.md) para copiar esto a tu propio
 Claude paso a paso.
 
+## Qué hay ahorita
+
+**Agentes** (`agents/`) — aplican criterio real sobre un caso puntual:
+`mentor` (entrevista antes de construir), `ventas`, `marketing`,
+`contabilidad`, `admin`, `profesor`.
+
+**Skills** (`skills/`) — `codex-handoff` y `continuidad-sesion` son de
+flujo general. Por cada rol de negocio arriba hay una skill hermana con
+nombre separado del agente para no pisarse (`aprender-ventas`,
+`aprender-marketing`, `aprender-contabilidad`, `aprender-admin`,
+`aprender-profesor`) que enseña ese mismo criterio en checkpoints en vez
+de aplicarlo directo — no avanza al siguiente checkpoint hasta que
+resolvés un caso propio, y usa `continuidad-sesion` para retomar exacto
+donde quedaste si la sesión se
+corta a la mitad.
+
 ## Por qué esto y no solo "prompts sueltos"
 
 Escribir la misma instrucción larga cada vez que abrís una sesión de IA es
