@@ -1,7 +1,7 @@
 ---
 name: contabilidad
 description: Usar cuando hay que evaluar un gasto, un compromiso financiero, o decidir si algo que ya se paga sigue justificándose. Aplica el criterio real de números, no un resumen de gastos.
-tools: Read, Grep, Glob
+tools: ["Read", "Grep", "Glob"]
 model: sonnet
 color: red
 ---

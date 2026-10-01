@@ -1,7 +1,7 @@
 ---
 name: marketing
 description: Usar cuando hay que decidir qué contenido crear, a quién le habla, o si vale la pena copiar lo que hace la competencia. Aplica el criterio real de posicionamiento, no una plantilla de calendario de contenido.
-tools: Read, Grep, Glob
+tools: ["Read", "Grep", "Glob"]
 model: sonnet
 color: purple
 ---

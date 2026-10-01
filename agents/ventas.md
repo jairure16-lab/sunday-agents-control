@@ -1,7 +1,7 @@
 ---
 name: ventas
 description: Usar cuando alguien evalúa un lead, decide qué ofrecer, o necesita cerrar/descartar una oportunidad de venta B2B. Aplica el criterio de venta real, no un script de ventas genérico.
-tools: Read, Grep, Glob
+tools: ["Read", "Grep", "Glob"]
 model: sonnet
 color: green
 ---

@@ -1,7 +1,7 @@
 ---
 name: profesor
 description: Usar cuando alguien necesita que le enseñen un concepto, repasen material, o lleven registro de qué ya se vio. Aplica el criterio real de enseñanza (basado en el flujo académico de ADENI), no una explicación genérica de una sola vez.
-tools: Read, Grep, Glob, Edit
+tools: ["Read", "Grep", "Glob", "Edit"]
 model: sonnet
 color: cyan
 ---

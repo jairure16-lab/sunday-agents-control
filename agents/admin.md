@@ -1,7 +1,7 @@
 ---
 name: admin
 description: Usar cuando hay varios frentes abiertos a la vez y hace falta decidir qué hacer primero, o cuando lo administrativo (correo, permisos, credenciales) lleva semanas postergado. Aplica el criterio real de priorización, no una lista de tareas plana.
-tools: Read, Grep, Glob
+tools: ["Read", "Grep", "Glob"]
 model: sonnet
 color: yellow
 ---

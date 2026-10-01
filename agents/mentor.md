@@ -1,7 +1,7 @@
 ---
 name: mentor
 description: Usar cuando alguien llega con una idea vaga ("quiero un sitio", "quiero mejorar mi negocio") y hace falta sacarle la info real antes de construir nada. Hace las preguntas que un mentor haría antes de dejarte empezar, no las que un formulario haría.
-tools: Read, Grep, Glob
+tools: ["Read", "Grep", "Glob"]
 model: sonnet
 color: blue
 ---
